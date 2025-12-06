@@ -1,0 +1,13 @@
+STEP-BY-STEP: Push this project to GitHub (Windows - Git Bash)
+
+1. Create a new repository on GitHub (example: faizan-portfolio-dark) - do not initialize with README.
+2. On your Windows machine open Git Bash and navigate to the folder where you unzipped this project.
+3. Initialize git and push (replace with your repo URL):
+   git init
+   git add .
+   git commit -m "Initial commit - Faizan dark portfolio"
+   git remote add origin https://github.com/<YOUR_USERNAME>/<REPO_NAME>.git
+   git branch -M main
+   git push -u origin main
+4. Enable GitHub Pages: Repo -> Settings -> Pages -> Build and deployment: Deploy from GitHub Actions. Wait a few minutes for deployment.
+5. If you want to keep resume private, remove the resume folder before committing or make the repo private.
